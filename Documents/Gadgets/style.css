@@ -1,0 +1,219 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: fixed;
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+  
+    .navbar ul {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      margin-left: 3rem;
+      
+}
+.navbar ul li {
+      display: inline-block;
+      /* background-color: #000; */
+      
+     
+}
+.navbar ul li a {
+      text-decoration: none;
+      color:whitesmoke;
+      background-color: #000;
+}
+    #order{
+      align-items: center;
+      background-color: yellow;
+      color: black;
+      padding:3% ;
+      
+}
+
+#explore{
+  align-items: center;
+  opacity: 50%;
+  color: black;
+  padding:3% ;
+
+}
+#Get{
+      color: rgb(252, 252, 20);
+}
+
+.Text {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+margin: 7%;
+background-color:rgb(182, 170, 202);
+margin-top: 5%;
+}
+
+    .Text h1{
+      font-size: 60px;
+}
+    .Text p {
+      flex: 1;
+}
+
+    .icons {
+      display: flex;
+      margin-left: 7%;
+      gap: 5%;
+}
+    .icons > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 20px;
+      border: 1px solid #ccc;
+}
+    .icons img,.icons ion-icon {
+      width: 50px;
+      height: 50px;
+}
+    .icons p {
+      margin-top: 10px;
+      text-align: center;
+}
+
+    #btn{
+      background-color: black;
+      color: yellow;
+}
+    .offers{
+      margin-top: 2%;
+}
+
+    .products2{
+      display: flex;
+      gap: 2%;
+      margin-left: 8%;
+}
+    .Deals img{
+      height: 15rem;
+      height: 15rem;
+}
+     .electronic{
+      display: grid;
+      grid-template-columns: repeat(4,1fr); 
+}
+
+.music{
+      display: flex;
+      gap: 3rem;
+      margin-left: 8rem;
+
+    }   
+
+.music img{
+  width: 30rem;
+
+}
+
+.testimonials{
+      text-align: center;
+}
+.Image{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: 6%;
+      gap: 8%;
+}
+.testimonial{
+      font-size: 20px;
+}
+
+.newsletter{
+      display: flex;
+      gap: 30%;
+      padding-left: 5rem;
+      margin-top: 4rem;
+      background-color: rgb(230, 228, 228);
+      margin-top: 2rem;
+      padding: 2rem;
+    
+      
+      
+}
+
+h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+}
+ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+}
+li {
+      margin-bottom: 5px;
+}
+    
+#email{
+      justify-content: right;
+      background-color: yellow;
+      color: black;
+      padding:1rem ;
+      width: 25rem;
+}
+
+.endpage{
+      margin: 0;
+      display:flex ;
+      gap: 110px;
+      background-color: rgba(34, 31, 31, 0.753);
+      padding:2rem ;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border: 1px solid black;
+}
+.product-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.product-card h2 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.product-card .productPrice {
+  display: flex;
+  justify-content: space-between;
+}
+.product-card .productPrice p {
+  font-size: 14px;
+}
+.product-card .productPrice button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.gamer{
+  background: linear-gradient(to bottom,#d4a4a4,#9fa7d8); 
+  width:63rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 8rem;
+  height: 20rem;
+}
+
+.gamer p{
+  font-size: larger;
+  font-weight: 600;
+}
+  
+    
+    
+    
+    
+    
+    
+    
