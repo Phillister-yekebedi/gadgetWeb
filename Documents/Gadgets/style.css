@@ -59,6 +59,7 @@ margin-top: 5%;
       display: flex;
       margin-left: 7%;
       gap: 5%;
+      padding: 2rem;
 }
     .icons > div {
       display: flex;
@@ -216,6 +217,9 @@ li {
 }
 .Testimonial  {
       margin-top: 4rem;
+}
+.p{
+      padding: 2rem;
 }
     
     
